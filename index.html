@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMNIA Philosophy — Philosophy for All</title>
+    <meta
+      name="description"
+      content="OMNIA is a nonprofit bringing philosophy to seniors — through senior-center discussions, live online courses, and free resources, in partnership with the American Philosophical Association."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+
+    <!-- ============ NAV ============ -->
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">Φ</span>
+          <span class="brand-name"
+            >OMNIA <span class="thin">Philosophy</span></span
+          >
+        </a>
+        <nav class="nav-links">
+          <a href="resources.html">Resources</a>
+          <a href="essays.html">Essays</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-primary">Contact us</a>
+        </div>
+        <button class="nav-toggle" data-menu-toggle aria-label="Open menu">
+          Menu
+        </button>
+      </div>
+      <div class="menu-panel" data-menu-panel>
+        <div class="menu-inner">
+          <a href="resources.html">Resources</a>
+          <a href="essays.html">Essays</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html" class="btn btn-primary">Contact us</a>
+        </div>
+      </div>
+    </header>
+
+    <main data-screen-label="Home">
+      <!-- ============ HERO ============ -->
+      <section class="section" style="padding-top: clamp(48px, 6vw, 84px)">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">
+                A Teaching Organization · Philosophy for all
+              </p>
+              <h1 class="display">The biggest questions<br />don't retire.</h1>
+              <p class="lede" style="margin-top: 28px; max-width: 34ch">
+                Discussions of ideas and values ought to be
+                <em> intergenerational.</em> At OMNIA, we bring the study of
+                philosophy to the older adults that ground our communities and
+                beliefs.
+              </p>
+              <div class="hero-actions">
+                <a href="resources.html" class="btn btn-primary btn-lg"
+                  >Explore our resources</a
+                >
+                <a href="#impact" class="btn btn-ghost btn-lg tag-link"
+                  >See our impact <span class="arrow">→</span></a
+                >
+              </div>
+            </div>
+            <div class="hero-media">
+              <div class="hero-media">
+                <img
+                  src="images/IMG_7648.jpeg"
+                  alt="Seniors engaged in a philosophy discussion at a senior center"
+                  style="
+                    width: 100%;
+                    aspect-ratio: 1.5/1;
+                    object-fit: cover;
+                    border-radius: 6px;
+                    display: block;
+                  "
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PARTNER BAR ============ -->
+      <section
+        class="partners section-tight"
+        style="padding-block: clamp(34px, 4vw, 52px)"
+      >
+        <div class="wrap">
+          <p class="partners-label">In partnership with</p>
+          <div class="partners-row">
+            <!--
+              TO ADD A LOGO: put the logo image file in your "images" folder,
+              then change the src below to match its filename.
+              PNG with a transparent background works best.
+            -->
+            <div class="partner-logo">
+              <img
+                class="partner-img"
+                src="Images/American_Philosophical_Association_logo.svg"
+                alt="American Philosophical Association logo"
+              />
+              <span class="partner-name"
+                >American Philosophical Association</span
+              >
+              <small>Official partner &amp; funder</small>
+            </div>
+            <div class="partner-logo">
+              <img
+                class="partner-img"
+                src="images/reading senior center logo.png"
+                alt="Senior center partners logo"
+              />
+              <span class="partner-name"
+                >Andover, Reading, Chemlsford, more...</span
+              >
+              <small>Senior Center Partners</small>
+            </div>
+            <div class="partner-logo">
+              <img
+                class="partner-img"
+                src="images/executive office.png"
+                alt="MA Executive Office of Aging and Independence logo"
+              />
+              <span class="partner-name"
+                >MA Executive Office of Aging and Independence</span
+              >
+              <small>State Government collaboration</small>
+            </div>
+            <div class="partner-logo">
+              <img
+                class="partner-img"
+                src="images/MCOA logo.png"
+                alt="Massachusetts Councils on Aging logo"
+              />
+              <span class="partner-name">Massachusetts Councils on Aging</span>
+              <small>Caregiver network</small>
+            </div>
+            <div class="partner-logo">
+              <img
+                class="partner-img"
+                src="images/portland logo.png"
+                alt="Portland Elder Care Council logo"
+              />
+              <span class="partner-name">Portland Elder Care Council</span>
+              <small>Regional partner</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ IMPACT METRICS ============ -->
+      <section class="section bg-alt" id="impact">
+        <div class="wrap">
+          <div class="block-head" style="margin-bottom: clamp(32px, 4vw, 52px)">
+            <div>
+              <p class="eyebrow">Our impact so far</p>
+              <h2 class="h2">
+                Measured in seniors,<br />not in good intentions
+              </h2>
+            </div>
+            <p class="body" style="max-width: 36ch; align-self: end">
+              We work to bring philosophy learning resources to as many people
+              as we can.
+            </p>
+          </div>
+          <div class="metric-row reveal">
+            <div class="metric">
+              <div class="metric-num">60<span class="u">+</span></div>
+              <div class="metric-label">
+                Seniors taught directly, in person and online
+              </div>
+              <div class="metric-src">
+                Across Massachusetts, Maryland &amp; Washington senior centers
+              </div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">1,750<span class="u">+</span></div>
+              <div class="metric-label">
+                Older adults reached nationwide with readings and resources
+              </div>
+              <div class="metric-src">
+                Via the MA Executive Office of Elder Affairs, Portland Elder
+                Care Council, and other newsletters
+              </div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">1,100 <span class="u">+</span></div>
+              <div class="metric-label">
+                Caregivers reached with philosophy lesson plans
+              </div>
+              <div class="metric-src">
+                Through Councils on Aging and regional partners
+              </div>
+            </div>
+            <div class="metric">
+              <div class="metric-num">1 <span class="u">of</span> 5</div>
+              <div class="metric-label">
+                Projects funded in the APA's Berry Fund grant cycle
+              </div>
+              <div class="metric-src">
+                Selected by the American Philosophical Association
+              </div>
+            </div>
+          </div>
+          <p
+            class="body small"
+            style="
+              margin-top: clamp(28px, 3vw, 40px);
+              color: var(--ink-3);
+              font-family: var(--sans);
+            "
+          >
+            A seven-person team · Curriculum developed with the consultation of
+            Prof. Schechter at Brown University and Dr. Stewart at Chapman
+            University
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ MISSION STATEMENT ============ -->
+      <section class="section">
+        <div class="wrap-narrow" style="text-align: center">
+          <p class="eyebrow center">Why we exist</p>
+          <p class="h2 statement reveal">
+            Philosophy has spent centuries inside the Academy. We think the
+            people with the most life to draw from deserve it
+            <em>most of all.</em>
+          </p>
+          <p
+            class="body lede reveal"
+            style="margin-top: 28px; max-width: 60ch; margin-inline: auto"
+          >
+            Engaging with philosophy builds cognitive reserve, sharpens
+            reasoning, and makes everyday life more meaningful. OMNIA exists to
+            put that within reach of every older adult through lessons and
+            discussion.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ WHAT WE DO ============ -->
+      <section class="section bg-alt">
+        <div class="wrap">
+          <div class="block-head">
+            <div>
+              <p class="eyebrow">What we do</p>
+              <h2 class="h2">Three ways we bring<br />philosophy to seniors</h2>
+            </div>
+          </div>
+
+          <div class="do-grid">
+            <article class="do-card reveal">
+              <span class="do-num serif-num">01</span>
+              <h3 class="h4">In person, at senior centers</h3>
+              <p class="body small">
+                We partner with municipal senior centers to host live
+                presentations and guided discussion events, meeting seniors
+                where they are.
+              </p>
+              <a href="resources.html" class="tag-link small"
+                >Our partnerships <span class="arrow">→</span></a
+              >
+            </article>
+            <article class="do-card reveal">
+              <span class="do-num serif-num">02</span>
+              <h3 class="h4">Live, online together</h3>
+              <p class="body small">
+                For those we can't reach in person, we host virtual discussion
+                meetings to facilitate intergenerational conversations
+                everywhere.
+              </p>
+              <a href="resources.html" class="tag-link small"
+                >Join a session <span class="arrow">→</span></a
+              >
+            </article>
+            <article class="do-card reveal">
+              <span class="do-num serif-num">03</span>
+              <h3 class="h4">Free resources for all</h3>
+              <p class="body small">
+                Our growing online guide with curated readings, discussion
+                prompts, and writing exercises so that anyone can practice
+                philosophy on their own terms.
+              </p>
+              <a href="resources.html" class="tag-link small"
+                >Start exploring <span class="arrow">→</span></a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ THE CASE / BENEFITS ============ -->
+      <section class="section">
+        <div class="wrap">
+          <div class="case-grid">
+            <div class="case-media">
+              <!--
+                TO ADD A PHOTO: put the image file in your "images" folder,
+                then change the src below to match its filename.
+              -->
+              <img
+                class="photo"
+                src="Images/Screenshot 2026-06-14 at 2.28.41 PM.png"
+                alt="A participant mid-conversation"
+                style="aspect-ratio: 3/4"
+              />
+            </div>
+            <div class="case-copy">
+              <p class="eyebrow">Why philosophy</p>
+              <h2 class="h2" style="margin-bottom: 10px">
+                It's good for the mind —<br />and good for the soul.
+              </h2>
+              <div class="case-list">
+                <div class="case-item reveal">
+                  <h4 class="h4">A sharper, healthier brain</h4>
+                  <p class="body">
+                    Active philosophical thinking builds
+                    <em
+                      ><a
+                        href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3024591/"
+                        >cognitive reserve,</a
+                      ></em
+                    >
+                    the mental resilience linked to lower dementia risk with
+                    age.
+                  </p>
+                </div>
+                <div class="case-item reveal">
+                  <h4 class="h4">Clearer reasoning</h4>
+                  <p class="body">
+                    Whether it is making a claim, weighing evidence, or hearing
+                    another view, philosophy is rigorous practice for
+                    communicating well on everything from family to politics.
+                  </p>
+                </div>
+                <div class="case-item reveal">
+                  <h4 class="h4">A more meaningful life</h4>
+                  <p class="body">
+                    Some questions have no tidy answer. Asking them anyway keeps
+                    us from taking the most important parts of life for granted.
+                  </p>
+                </div>
+              </div>
+              <a
+                href="resources.html"
+                class="btn btn-outline"
+                style="margin-top: 8px"
+                >Read our approach</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PULL QUOTE ============ -->
+      <section class="section bg-ink">
+        <div class="wrap-narrow" style="text-align: center">
+          <p class="eyebrow center" style="color: var(--clay-soft)">
+            In their words
+          </p>
+          <blockquote class="pull">
+            “I haven't been asked what I <em>think</em> about anything in years.
+            Now I look forward to Wednesdays.”
+          </blockquote>
+          <p
+            class="muted"
+            style="
+              font-family: var(--sans);
+              font-size: 15px;
+              letter-spacing: 0.04em;
+              margin-top: 8px;
+            "
+          >
+            — Participant, Massachusetts senior center
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ GALLERY STRIP ============ -->
+      <section class="section">
+        <div class="wrap">
+          <div class="block-head">
+            <div>
+              <p class="eyebrow">From our sessions</p>
+              <h2 class="h2">Philosophy, in practice</h2>
+            </div>
+            <a href="resources.html" class="tag-link" style="align-self: end"
+              >See all resources <span class="arrow">→</span></a
+            >
+          </div>
+          <!--
+            TO ADD GALLERY PHOTOS: put each image file in your "images" folder,
+            then change the src on each <img> below to match its filename.
+          -->
+          <div class="gallery">
+            <img
+              class="photo"
+              src="Images/Screenshot 2026-06-14 at 2.22.50 PM.png"
+              alt="Discussion event"
+              style="aspect-ratio: 1.4/1"
+            />
+            <img
+              class="photo"
+              src="Images/Screenshot 2026-06-14 at 2.11.15 PM.png"
+              alt="Center session"
+              style="aspect-ratio: 1/1"
+            />
+            <img
+              class="photo"
+              src="Images/IMG_7245.jpeg"
+              alt="A reading group"
+              style="aspect-ratio: 1/1"
+            />
+            <img
+              class="photo"
+              src="Images/Screenshot 2026-06-14 at 2.17.18 PM.png"
+              alt="Online meeting"
+              style="aspect-ratio: 1/0.7"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SUPPORT CTA ============ -->
+      <section class="section">
+        <div class="wrap">
+          <div class="cta">
+            <p class="eyebrow center" style="color: var(--clay-soft)">
+              Work with us
+            </p>
+            <h2
+              class="display"
+              style="
+                font-size: clamp(38px, 5vw, 68px);
+                max-width: 18ch;
+                margin-inline: auto;
+              "
+            >
+              Bring philosophy to your community.
+            </h2>
+            <p
+              class="lede"
+              style="color: #cfc6b4; max-width: 52ch; margin: 26px auto 0"
+            >
+              We provide the curriculum, the facilitators, and the materials —
+              free to centers and participants alike. If you'd like to host
+              OMNIA, or simply use our resources, we'd love to hear from you.
+            </p>
+            <div class="cta-actions">
+              <a href="contact.html" class="btn btn-primary btn-lg"
+                >Get in touch</a
+              >
+              <a href="resources.html" class="btn btn-outline on-ink btn-lg"
+                >Explore our resources</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand-name">
+              OMNIA
+              <span style="font-weight: 300; color: #cfc6b4">Philosophy</span>
+            </div>
+            <p class="footer-tag">
+              Philosophy for all. A nonprofit bringing life's biggest questions
+              to seniors everywhere.
+            </p>
+          </div>
+          <div>
+            <h5>Explore</h5>
+            <ul>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="essays.html">Essays</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Connect</h5>
+            <ul>
+              <li>
+                <a href="mailto:omniaphilosophy@gmail.com"
+                  >omniaphilosophy@gmail.com</a
+                >
+              </li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="contact.html">Partner with us</a></li>
+              <li><a href="contact.html">Volunteer</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 OMNIA Philosophy · A registered nonprofit</span>
+          <span>Supported by the American Philosophical Association</span>
+        </div>
+      </div>
+    </footer>
+
+    <style>
+      /* ---- Home-specific layout ---- */
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: clamp(32px, 5vw, 72px);
+        align-items: center;
+      }
+      .hero-actions {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+        margin-top: 36px;
+        flex-wrap: wrap;
+      }
+      .hero-media {
+        position: relative;
+      }
+
+      /* ---- Reusable photo styling (gallery + case portrait) ----
+         Any <img class="photo"> gets cropped neatly and rounded.
+         The soft background shows as a placeholder until an image is added. */
+      .photo {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 6px;
+        display: block;
+        background: rgba(33, 29, 23, 0.05);
+      }
+
+      /* ---- Partner logos ---- */
+      .partners .partner-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 4px;
+      }
+      .partner-img {
+        width: 100%;
+        max-width: 180px;
+        height: 80px;
+        object-fit: contain;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .partner-name {
+        display: block;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: clamp(24px, 3vw, 48px);
+      }
+      .stat-num {
+        font-size: clamp(40px, 4.4vw, 60px);
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: var(--ink);
+      }
+      .stat-label {
+        font-family: var(--sans);
+        font-size: 15px;
+        line-height: 1.4;
+        color: var(--ink-2);
+        margin-top: 12px;
+        max-width: 22ch;
+      }
+
+      .statement {
+        letter-spacing: -0.018em;
+      }
+      .statement em {
+        color: var(--clay);
+      }
+
+      .block-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px;
+        margin-bottom: clamp(36px, 4vw, 56px);
+        flex-wrap: wrap;
+      }
+
+      .do-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      .do-card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 36px 32px 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-height: 320px;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+      .do-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 18px 40px -28px rgba(33, 29, 23, 0.4);
+      }
+      .do-num {
+        font-size: 30px;
+        color: var(--clay);
+        line-height: 1;
+      }
+      .do-card h3 {
+        margin-top: 4px;
+      }
+      .do-card .tag-link {
+        margin-top: auto;
+      }
+
+      .case-grid {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        gap: clamp(36px, 6vw, 88px);
+        align-items: center;
+      }
+      .case-list {
+        display: grid;
+        gap: 30px;
+        margin: 32px 0 36px;
+      }
+      .case-item {
+        padding-left: 22px;
+        border-left: 2px solid var(--clay-soft);
+      }
+      .case-item h4 {
+        margin-bottom: 8px;
+      }
+      .case-item em {
+        color: var(--clay);
+      }
+
+      .pull {
+        font-family: var(--serif);
+        font-size: clamp(28px, 3.8vw, 46px);
+        line-height: 1.22;
+        letter-spacing: -0.018em;
+        margin: 18px 0 0;
+        color: var(--paper);
+      }
+      .pull em {
+        color: var(--clay-soft);
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+      }
+
+      .cta {
+        background: var(--ink);
+        color: var(--paper);
+        border-radius: 14px;
+        padding: clamp(48px, 7vw, 96px) clamp(24px, 5vw, 80px);
+        text-align: center;
+      }
+      .cta .display {
+        color: var(--paper);
+      }
+      .cta-actions {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        margin-top: 38px;
+        flex-wrap: wrap;
+      }
+
+      @media (max-width: 920px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-media {
+          order: -1;
+        }
+        .hero-media image-slot {
+          aspect-ratio: 16/10 !important;
+        }
+        .case-grid {
+          grid-template-columns: 1fr;
+        }
+        .case-media {
+          max-width: 460px;
+        }
+        .do-grid {
+          grid-template-columns: 1fr;
+        }
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 32px 24px;
+        }
+        .gallery {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 520px) {
+        .stats {
+          grid-template-columns: 1fr;
+        }
+        .gallery {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    </style>
+
+    <script src="image-slot.js"></script>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
